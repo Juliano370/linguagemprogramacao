@@ -1,13 +1,13 @@
 function seguir(){
-    alert("voce agora esta seguindo juliano")
+    alert(`Você agora está seguindo Daniel Pires`)
+    //vamos usar dom para recuperar os dados do html
+    //dom document object model
+    let nro1 = Number  (document.getElementById("nro1").value)
+    let nro2 = Number  (document. getElementById("nro2"). value)
+    // vamos fazer a subtração
+    let sub = nro1- nro2 
+    // vamos mostrar o resultado ao usuário 
+    alert("A subtração é" +sub)
 }
 
-/*
-1 git init
-2. git add
-3. git config user email "your-email"
-4.git config user. name  "your-name"
-5.gitcommit-m "meu primeiro programa web"
-6. git remote add  origin https//gitub.com/df piresling
-
-*/
+document. getelement Byld ("sub").imertext="o resultado é" + sub
